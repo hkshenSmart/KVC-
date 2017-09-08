@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		D74300031F629B27008F41B9 /* KVC_____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = D74300021F629B27008F41B9 /* KVC_____Tests.m */; };
 		D743000E1F629B27008F41B9 /* KVC_____UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D743000D1F629B27008F41B9 /* KVC_____UITests.m */; };
+		D743001D1F629B5E008F41B9 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = D743001C1F629B5E008F41B9 /* Person.m */; };
 		D743FFEA1F629B27008F41B9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D743FFE91F629B27008F41B9 /* main.m */; };
 		D743FFED1F629B27008F41B9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D743FFEC1F629B27008F41B9 /* AppDelegate.m */; };
 		D743FFF01F629B27008F41B9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D743FFEF1F629B27008F41B9 /* ViewController.m */; };
@@ -40,6 +41,8 @@
 		D74300091F629B27008F41B9 /* KVC集合运算符UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "KVC集合运算符UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D743000D1F629B27008F41B9 /* KVC_____UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "KVC_____UITests.m"; sourceTree = "<group>"; };
 		D743000F1F629B27008F41B9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D743001B1F629B5E008F41B9 /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		D743001C1F629B5E008F41B9 /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
 		D743FFE51F629B27008F41B9 /* KVC集合运算符.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "KVC集合运算符.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D743FFE91F629B27008F41B9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		D743FFEB1F629B27008F41B9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -128,6 +131,8 @@
 				D743FFF61F629B27008F41B9 /* LaunchScreen.storyboard */,
 				D743FFF91F629B27008F41B9 /* Info.plist */,
 				D743FFE81F629B27008F41B9 /* Supporting Files */,
+				D743001B1F629B5E008F41B9 /* Person.h */,
+				D743001C1F629B5E008F41B9 /* Person.m */,
 			);
 			path = "KVC集合运算符";
 			sourceTree = "<group>";
@@ -286,6 +291,7 @@
 			files = (
 				D743FFF01F629B27008F41B9 /* ViewController.m in Sources */,
 				D743FFED1F629B27008F41B9 /* AppDelegate.m in Sources */,
+				D743001D1F629B5E008F41B9 /* Person.m in Sources */,
 				D743FFEA1F629B27008F41B9 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

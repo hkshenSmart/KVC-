@@ -10,4 +10,17 @@
 
 @implementation Person
 
+//不写@synthesize name = _name的话，默认实例变量为_name
+@synthesize name = _name;
+@synthesize age = _age;
+
+- (instancetype)initWithName:(NSString *)name age:(NSInteger)age {
+    
+    if (self = [super init]) {
+        _name = name;
+        _age = age;
+    }
+    return self;
+}
+
 @end

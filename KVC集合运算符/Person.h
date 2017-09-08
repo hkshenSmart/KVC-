@@ -10,4 +10,13 @@
 
 @interface Person : NSObject
 
+// 姓名
+@property (nonatomic, copy) NSString *name;
+
+// 年龄
+@property (nonatomic, assign) NSInteger age;
+
+// 设置属性变量方法
+- (instancetype)initWithName:(NSString *)name age:(NSInteger)age;
+
 @end
